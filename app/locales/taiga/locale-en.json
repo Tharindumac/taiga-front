@@ -1907,9 +1907,9 @@
         }
     },
     "DISCOVER": {
-        "PAGE_TITLE": "Discover projects - Taiga",
+        "PAGE_TITLE": "Welcome To OrelIT - Taiga",
         "PAGE_DESCRIPTION": "Searchable directory of Public Projects in Taiga. Explore backlogs, timelines, issues, and teams. Check out the most liked or most active projects. Filter by Kanban or Scrum.",
-        "DISCOVER_TITLE": "Discover projects",
+        "DISCOVER_TITLE": "Welcome To OrelIT",
         "DISCOVER_SUBTITLE": "{projects, plural, =1{One public project to discover} other{# public projects to discover}}",
         "MOST_ACTIVE": "Most active",
         "MOST_ACTIVE_EMPTY": "There are no ACTIVE projects yet",

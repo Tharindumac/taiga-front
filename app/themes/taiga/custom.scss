@@ -1,0 +1,168 @@
+// Titles
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    color: $black;
+}
+
+.btn-small {
+    color: $white;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
+    transition: all .3s linear 0s;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='url'],
+input[type='email'],
+input[type='date'],
+input[type='search'],
+select,
+textarea {
+    background: $white;
+    border: 1px solid $color-border-input;
+    border-radius: 3px;
+    margin: 0;
+    padding: .8rem 1rem .8rem .95rem;
+    width: 100%;
+}
+
+input[type='text']:focus,
+input[type='number']:focus,
+input[type='password']:focus,
+input[type='url']:focus,
+input[type='email']:focus,
+input[type='date']:focus,
+input[type='search']:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid $color-border-input-focus;
+    transition: border .2s linear 0s;
+}
+
+.auth .logo {
+    color: $black;
+    font-size: 20px;
+}
+
+.btn-big[variant='primary']:hover,
+.btn-small[variant='primary']:hover,
+.btn-icon[variant='primary']:hover,
+.btn-filter[variant='primary']:hover,
+.btn-board[variant='primary']:hover,
+.btn-big[variant='secondary']:hover,
+.btn-small[variant='secondary']:hover,
+.btn-icon[variant='secondary']:hover,
+.btn-filter[variant='secondary']:hover,
+.btn-board[variant='secondary']:hover,
+.btn-big[variant='destructive']:disabled,
+.btn-small[variant='destructive']:disabled,
+.btn-icon[variant='destructive']:disabled,
+.btn-filter[variant='destructive']:disabled,
+.btn-board[variant='destructive']:disabled,
+.btn-big:hover,
+.btn-small:hover,
+.btn-icon:hover,
+.btn-filter:hover,
+.btn-board:hover {
+    background-color: $color-solid-primary-focus;
+}
+
+.auth .login-text,
+.auth .register-text {
+    color: $black;
+    font-size: .875rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.auth .login-text a,
+.auth .register-text a {
+    color: $black;
+    text-decoration: underline;
+}
+
+.register-form-container .register-text-top {
+    color: $black;
+    display: block;
+    margin: 1rem 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.btn-small[variant='primary'] {
+    color: $white;
+    padding-bottom: .9rem;
+    padding-top: .9rem;
+}
+
+.navbar {
+    background-color: $color-solid-primary;
+    display: flex;
+    height: 48px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.dropdown-project-list .create-project-btn span {
+    color: $white;
+}
+
+.dropdown-project-list-projects {
+    background-color: transparent;
+}
+
+.navbar .nav-left .logo svg {
+    height: 3.6rem;
+    width: 3.6rem;
+}
+
+.logo svg .st0 {
+    fill: $white;
+}
+
+.logo svg .st1 {
+    fill: transparent;
+}
+
+.button-primary:hover {
+    background: $color-solid-primary-focus;
+    color: $white;
+}
+
+.btn-filter {
+    background-color: $color-solid-primary;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+    text-transform: none;
+}
+
+.empty-burndown svg {
+    fill: $color-solid-primary;
+    flex-basis: 4rem;
+    flex-shrink: 0;
+    height: 4rem;
+    margin-right: 2rem;
+    width: 4rem;
+}
+
+.summary-progress-bar,
+.closed-points-progress,
+.defined-points,
+.project-points-progress {
+    border-radius: 10px;
+}
+
+.summary-progress-bar .closed-points-progress {
+    background: $color-solid-primary;
+    height: 24px;
+    position: absolute;
+}
